@@ -1,0 +1,12 @@
+package com.sample
+
+
+rule "other rule"
+	salience 100
+    when
+        eval( true )
+    then
+        System.err.println("other rule");
+
+end
+
